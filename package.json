@@ -1,0 +1,26 @@
+{
+  "name": "slick_32air",
+  "main": "main.js",
+  "productName": "slick air",
+  "description": "slick air",
+  "author": "",
+  "version": "1.0.0",
+  "dependencies": {
+    
+	"discord-rich-presence": "0.0.8"
+  },
+  "scripts": {
+    "start": "electron main.js",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "8.2.5",
+    "electron-builder": "22.9.1"
+  },
+  "build": {
+    "appId": "com.example.gamename",
+    "directories": {
+      "buildResources": "buildResources"
+    }
+  }
+}
